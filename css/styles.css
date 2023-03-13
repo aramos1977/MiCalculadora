@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
+html {
+    font-family: "Georama", sans-serif;
+    font-size: 62.5%;
+}  
+
+input[type=button] {
+background-color: rgb(244, 231, 231);
+border: 10px;
+color: black;
+font-weight: bold;
+padding: 6px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: 7px; 7px;
+cursor: pointer;
+box-shadow: 3px 3px 3px black;
+}
+
+input[type="text"]{
+border: solid;
+color: rgb(4, 4, 4);
+padding: 15px 32;
+text-align: right;
+text-decoration: none;
+display: inline-block;
+font-size: 30px;
+margin: 4px 2px;
+cursor: pointer;
+width: 98%;
+box-shadow: 3px 3px 3px rgb(7, 7, 7);
+}
+
+body{
+   background: linear-gradient(90deg, #183da4 0%, #08174a 50%);  
+   margin: 3.5rem 0 0 0;
+   font-family: "Montserrat", sans-serif;
+   overflow-x: hidden;
+   font-size: 0.938rem;
+   color: #fff;
+   display: grid;
+   align-items: center;
+}
+
+table {
+background-color: #066496;
+padding: 50px 50px;
+
+}
+
+/* aca se trabaja el color de los correos */
+.correo {
+  color:rgb(0,145,255);
+  font-size: 14px;
+}
+.correoeducativo {
+  color:rgb(0,145,255);
+}
+
+/* aca se trabaja el color de los correos */
+.contacto {
+  color:#fff (0,145,255);
+  display: flex;
+  margin:20px;
+  padding:10px 10px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  display: grid;
+  font-size: 12px;
+}
+
+/* aca se trabaja con el footer o el pie de pagina */
+footer {
+  background-color: #202020;
+  color:white
+  width: 960px;
+  margin:0px;
+  padding:20px 10px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  font-size: 14px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mi Calculadora</title>
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <center>           
+        <form name="Calculadora">
+        
+           
+            
+            <table border="3">
+            
+            <tr>
+            <td colspan="5">
+            <input type="text" name="txtboxnros" value="0" disabled>
+            </td></tr>
+            
+            <tr>
+            <td><input type="button" value="1" onclick="ingresarnumero(this.value)"></td>
+            <td><input type="button" value="2" onclick="ingresarnumero(this.value)"></td>
+            <td><input type="button" value="3" onclick="ingresarnumero(this.value)"></td>
+            <td><input type="button" value="+" onclick="ingresaoperacion(this.value)"></td>
+            <td><input type="button" value="-" onclick="ingresaoperacion(this.value)"></td>
+            </tr>
+            
+            <tr>
+            <td><input type="button" value="4" onclick="ingresarnumero(this.value)"></td>
+            <td><input type="button" value="5" onclick="ingresarnumero(this.value)"></td>
+            <td><input type="button" value="6" onclick="ingresarnumero(this.value)"></td>
+            <td><input type="button" value="*" onclick="ingresaoperacion(this.value)"></td>
+            <td><input type="button" value="/" onclick="ingresaoperacion(this.value)"></td>
+            </tr>
+            
+            <tr>
+            <td><input type="button" value="7" onclick="ingresarnumero(this.value)"></td>
+            <td><input type="button" value="8" onclick="ingresarnumero(this.value)"></td>
+            <td><input type="button" value="9" onclick="ingresarnumero(this.value)"></td>
+            <td><input type="button" value="^" onclick="ingresaoperacion('**')"></td>
+            <td><input type="button" value="√" onclick="raiz()"></td>
+            </tr>
+            
+            <tr>
+            <td><input type="button" value="0" onclick="ingresarnumero(this.value)"></td>
+            <td><input type="button" value="." onclick="ingresarnumero(this.value)"></td>
+            <td><input type="button" value="C" onclick="limpiar()"></td>
+            <td colspan="2"><input type="button" value="      =      " onclick="resultado()"></td>
+            </tr>
+            
+            </table>
+            </form>
+            </center>
+
+            <script src= "calculadora.js"></script>
+            <!--aca va la informacion del contacto-->
+<section class="contacto">
+    <p><h2>Contacto:</h2></p>
+    <a class="correo" href="https://outlook.live.com/owa/"> Email: alexander.rl12@hotmail.com </a>
+    <p>Celular: Tiene un Virus</p>
+    <p>Bogotá</p>
+</section>
+    <br>
+    <!-- aca va el Footer pie de pagina-->
+    <footer class="footer">
+    <div class="container-footer">
+    <div class="Copyright">
+        @ 2023 Todos los derechos Reservados| <a class="correoeducativo" href="https://agenciaatenea.gov.co/convocatorias/segunda-convocatoria-todos-la-u"> Todos a la U </a>         
+    <div class="information">
+        Información Compañia| Privacion y Politicas | Terminos y Condiciones
+    </div> 
+    </div> 
+    </div>      
+    </footer>    
+    </body>
+</html>
